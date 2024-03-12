@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback - Basic HTML</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .all{
+            margin: 20vh;
+        }
+
+        #form {
+            display: flex;
+            justify-content: center;
+        }
+
+        .places{
+            width: 20rem;
+            height: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .feedback{
+            display: flex;
+            justify-content: center;
+        }
+
+        .estrelas{
+            display: flex;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+
+        select{
+            font-size: 1.2rem;
+            padding: 0.2rem 1rem;
+        }
+
+        button{
+            font-size: 1.2rem;
+            margin-left: 1rem;
+            padding: 0.2rem 2rem;
+        }
+
+        button:hover{
+            font-weight: bold;
+        }
+
+        .people{
+            display: flex;
+            justify-content: center;
+            margin-top: 5rem;
+            text-align: center;
+        }
+
+        td{
+            padding: 1rem 6rem;
+            font-size: 1.2rem;
+        }
+        
+        th{
+            padding: 1rem 6rem;
+            font-size: 1.2rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="all">
+        <h1 class="feedback">Deixe seu FEEDBACK!</h1>
+        
+        <div id="form">
+            <input class="places" type="text" placeholder="Nome">
+            <input class="places" type="text" placeholder="Sobrenome">
+        </div>
+
+        <div class="estrelas">
+            <select>
+                <option>1 estrela</option>
+                <option>2 estrelas</option>
+                <option>3 estrelas</option>
+                <option>4 estrelas</option>
+                <option>5 estrelas</option>
+            </select>
+
+            <div>
+                <button>Enviar</button>
+            </div>
+        </div>
+
+        <div class="people">
+            <table border="1">
+                <tr><td colspan="3" style="font-weight: bolder;">Avaliações</td></tr>
+                
+                <tr>
+                    <th>Usuários</th>
+                    <th>Avaliação</th>
+                    <th>Data</th>
+                </tr>
+
+                <tr>
+                    <td>Joao Oliveira</td><td>5 estrelas</td><td>25/03/2023</td>
+                </tr>
+                <tr>
+                    <td>Renato Garcia</td><td>5 estrelas</td><td>24/03/2023</td>
+                </tr>
+                <tr>
+                    <td>Junior Nascimento</td><td>5 estrelas</td><td>24/03/2023</td>
+                </tr>
+                <tr>
+                    <td>Larissa Farias</td><td>5 estrelas</td><td>24/03/2023</td>
+                </tr>
+                <tr>
+                    <td>Galindo Matos</td><td>4 estrelas</td><td>22/03/2023</td>
+                </tr>
+                <tr>
+                    <td>Vanessa Fana</td><td>4 estrelas</td><td>22/03/2023</td>
+                </tr>
+                <tr>
+                    <td>Joana A.</td><td>4 estrelas</td><td>22/03/2023</td>
+                </tr>
+                <tr>
+                    <td>Alberto Jr</td><td>4 estrelas</td><td>21/03/2023</td>
+                </tr>
+                <tr>
+                    <td>Larissa Eiffel</td><td>4 estrelas</td><td>16/03/2023</td>
+                </tr>
+                <tr>
+                    <td>Enrico Barigchun</td><td>4 estrelas</td><td>16/03/2023</td>
+                </tr>
+                <tr>
+                    <td>Felipe Sena</td><td>3 estrelas</td><td>10/01/2023</td>
+                </tr>
+                <tr>
+                    <td>Yuri dos Santos</td><td>3 estrelas</td><td>01/11/2022</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
