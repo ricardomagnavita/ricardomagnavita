@@ -1,0 +1,6 @@
+- 👋 Hello, my name is Ricardo Magnavita
+- 👀 I'm interested in Programmer and Designer vacancies
+- 🌱 Currently studying DEV FULL STACK and with a lot of experience in the Design market
+- 💞️ I try to deliver the best ALWAYS!
+- 📫 Contact me via WhatsApp - +55 71 99662-3999
+- ⚡ Curiosity: I always try to be better than yesterday.
